@@ -8,11 +8,10 @@ import android.view.Menu
 import java.util.ArrayList
 
 class ShoppingLogsActivity : Activity(), DialogInterface.OnClickListener {
-    private var shoppingLogs: ArrayList<String>? = null
+    private var shoppingLogs = mutableListOf<String>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shopping_logs)
-        shoppingLogs = ArrayList()
     }
 
     override fun onStart() {
@@ -27,7 +26,7 @@ class ShoppingLogsActivity : Activity(), DialogInterface.OnClickListener {
     }
 
     private fun testMyLogs() {
-        if (shoppingLogs!!.size == 0) {
+        if (shoppingLogs.isEmpty()) {
             val builder = AlertDialog.Builder(this)
             builder.setMessage("Pas d'historiques").setPositiveButton("Ok", this).setNegativeButton("Annuler", null)
             val alertDialog = builder.create()
