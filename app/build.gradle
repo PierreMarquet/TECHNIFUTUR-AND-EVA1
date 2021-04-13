@@ -6,7 +6,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.technipixl.friendsmood"
+        applicationId "com.technipixl.evand1.exo1"
         minSdkVersion 23
         targetSdkVersion 30
         buildToolsVersion "30.0.3"

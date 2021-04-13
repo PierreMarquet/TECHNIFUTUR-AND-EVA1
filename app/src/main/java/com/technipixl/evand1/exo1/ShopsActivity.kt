@@ -1,4 +1,4 @@
-package com.neopixl.exercice1
+package com.technipixl.evand1.exo1
 
 import android.app.Activity
 import android.os.Bundle

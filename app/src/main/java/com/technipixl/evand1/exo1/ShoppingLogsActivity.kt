@@ -1,11 +1,11 @@
-package com.neopixl.exercice1
+package com.technipixl.evand1.exo1
 
 import android.app.Activity
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.os.Bundle
 import android.view.Menu
-import java.util.*
+import java.util.ArrayList
 
 class ShoppingLogsActivity : Activity(), DialogInterface.OnClickListener {
     private var shoppingLogs: ArrayList<String>? = null
