@@ -22,7 +22,7 @@ class AboutActivity : Activity(), View.OnClickListener {
     override fun onClick(view: View) {
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "text/plain"
-        val mailList = arrayOf("mail@company.be")
+        val mailList = arrayOf("mail@neopixl.com")
         intent.putExtra(Intent.EXTRA_EMAIL, mailList)
         startActivity(Intent.createChooser(intent, "Send Email"))
     }

@@ -23,6 +23,7 @@ class ShoppingCartActivity : Activity(), View.OnClickListener {
         when (v.id) {
             R.id.buttonValidateShoppingCart -> finish()
             else -> {
+                //TODO: Not implemented yet
             }
         }
     }

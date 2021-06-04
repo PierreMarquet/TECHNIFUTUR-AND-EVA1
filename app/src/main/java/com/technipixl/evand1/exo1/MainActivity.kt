@@ -24,10 +24,6 @@ class MainActivity : Activity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.buttonAbout -> {
-                val about = Intent(this, AboutActivity::class.java)
-                startActivity(about)
-            }
             R.id.buttonShop -> {
                 val shops = Intent(this, ShopsActivity::class.java)
                 startActivity(shops)
@@ -40,7 +36,12 @@ class MainActivity : Activity(), View.OnClickListener {
                 val shoppingCartIntent = Intent(this, ShoppingCartActivity::class.java)
                 startActivity(shoppingCartIntent)
             }
+            R.id.buttonAbout -> {
+                val about = Intent(this, AboutActivity::class.java)
+                startActivity(about)
+            }
             else -> {
+                //TODO: Not implemented yet
             }
         }
     }
