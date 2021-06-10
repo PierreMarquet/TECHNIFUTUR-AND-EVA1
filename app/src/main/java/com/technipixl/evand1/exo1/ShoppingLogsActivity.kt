@@ -28,7 +28,7 @@ class ShoppingLogsActivity : Activity(), DialogInterface.OnClickListener {
     private fun testMyLogs() {
         if (shoppingLogs.isEmpty()) {
             val builder = AlertDialog.Builder(this)
-            builder.setMessage("Pas d'historique d'achat").setPositiveButton("Ok", this).setNegativeButton("Annuler", null)
+            builder.setMessage("Aucun historique n'est disponible").setPositiveButton("Ok", this).setNegativeButton("Annuler", null)
             val alertDialog = builder.create()
             alertDialog.show()
         }

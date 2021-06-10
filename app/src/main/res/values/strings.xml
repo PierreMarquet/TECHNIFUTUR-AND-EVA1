@@ -8,5 +8,19 @@
     <string name="title_activity_shopping_logs">ShoppingLogs</string>
     <string name="title_activity_shop">ShopActivity</string>
     <string name="title_activity_about">AboutActivity</string>
+    <string name="le_magasin_1">le magasin 1</string>
+    <string name="_5_rue_de_la_chouette_n4000_liege_n_32_2_226_83_61">5 rue de la chouette \n4000 Liege \n+32 2 226 83 61</string>
+    <string name="le_magasin_2">le magasin 2</string>
+    <string name="_53_rue_des_songes_n4000_liege_n_32_2_481_51_62">53 rue des songes \n4000 Liege \n+32 2 481 51 62</string>
+    <string name="a_propos_de">A propos de</string>
+    <string name="cette_application_vous_permet_de_g_rer_consulter_l_historique_de_vos_achats_ainsi_que_l_ensemble_de_nos_boutiques_disponibles">Cette application vous permet de gérer, consulter l\'historique de vos achats ainsi que l\'ensemble de nos boutiques disponibles.</string>
+    <string name="nous_contacter">Nous contacter</string>
+    <string name="mes_achats">Mes achats</string>
+    <string name="valider">Valider</string>
+    <string name="mes_historiques_d_achat">Mes historiques d\'achat</string>
+    <string name="g_rer_vos_achats">Gérer vos achats</string>
+    <string name="voir_l_apos_historique">Voir l\'historique</string>
+    <string name="nos_boutiques">Nos boutiques</string>
+
 
 </resources>

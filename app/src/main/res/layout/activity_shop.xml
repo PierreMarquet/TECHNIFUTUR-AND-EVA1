@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="32dp"
-        android:text="le magasin 1"
+        android:text="@string/le_magasin_1"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="5 rue de la chouette 4000 Liege +32 2 333 11 22"
+        android:text="@string/_5_rue_de_la_chouette_n4000_liege_n_32_2_226_83_61"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintLeft_toLeftOf="@+id/textView1"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
-        android:text="le magasin 2"
+        android:text="@string/le_magasin_2"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintLeft_toLeftOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -45,7 +45,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="53 rue des songes 4000 Liege +32 2 481 51 62"
+        android:text="@string/_53_rue_des_songes_n4000_liege_n_32_2_481_51_62"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/textView3"

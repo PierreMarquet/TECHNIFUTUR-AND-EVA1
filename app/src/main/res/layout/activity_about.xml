@@ -14,7 +14,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A propos de"
+        android:text="@string/a_propos_de"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
-        android:text="Cette application vous permet de gérer, consulter l'historique de vos achats ainsi que l'ensemble de nos boutiques disponibles."
+        android:text="@string/cette_application_vous_permet_de_g_rer_consulter_l_historique_de_vos_achats_ainsi_que_l_ensemble_de_nos_boutiques_disponibles"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintLeft_toLeftOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -32,7 +32,7 @@
         android:id="@+id/buttonContactUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nous contacter"
+        android:text="@string/nous_contacter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/textView1"
         app:layout_constraintTop_toTopOf="parent" />

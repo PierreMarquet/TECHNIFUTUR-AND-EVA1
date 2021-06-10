@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TECHNIFUTUR-EVAND1-EXO1-STARTER.iml" filepath="$PROJECT_DIR$/.idea/modules/TECHNIFUTUR-EVAND1-EXO1-STARTER.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TECHNIFUTUR-EVAND1-EXO1-STARTER.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TECHNIFUTUR-EVAND1-EXO1-STARTER.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TECHNIFUTUR-AND-EVA1.iml" filepath="$PROJECT_DIR$/.idea/modules/TECHNIFUTUR-AND-EVA1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TECHNIFUTUR-AND-EVA1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TECHNIFUTUR-AND-EVA1.app.iml" />
     </modules>
   </component>
 </project>
